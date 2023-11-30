@@ -1,4 +1,9 @@
 name: ReactJS Deploy
+  
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 on:
   push:
